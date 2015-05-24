@@ -1,0 +1,74 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Pine360 TestSuite" parallel= "tests" verbose="1" >
+  <test name="Pine360 Test Cases Chrome" >
+	<parameter name="browser" value="chrome" />
+		<classes>
+		   <class name="Pine360TestSuite.Pine360TestsSuite">
+				<methods>
+					<include name="CreateMembership" />
+					<include name="CreateCardTier" />
+					<include name="CreateBinRangeProduct" />
+					<include name="CreateBinRangeCorporate" />
+					<include name="CreateBinRange" />
+					<include name="CreateDenomination" />
+					<include name="CreateCardScheme" />
+					<include name="CreateStockOrder" />
+					<include name="CreateRole" />
+					<include name="CreateUser" />
+					<include name="UnblockandResetPassword" />
+					<include name="CreateCustomer" />
+					<include name="EditUser" />
+					<include name="EditCustomer" />
+				</methods>
+		   </class>
+		</classes>
+  </test>
+  
+  <test name="Pine360 Test Cases Firefox" >
+	<parameter name="browser" value="firefox" />
+		<classes>
+		   <class name="Pine360TestSuite.Pine360TestsSuite">
+				<methods>
+					<include name="CreateMembership" />
+					<include name="CreateCardTier" />
+					<include name="CreateBinRangeProduct" />
+					<include name="CreateBinRangeCorporate" />
+					<include name="CreateBinRange" />
+					<include name="CreateDenomination" />
+					<include name="CreateCardScheme" />
+					<include name="CreateStockOrder" />
+					<include name="CreateRole" />
+					<include name="CreateUser" />
+					<include name="UnblockandResetPassword" />
+					<include name="CreateCustomer" />
+					<include name="EditUser" />
+					<include name="EditCustomer" />
+				</methods>
+		   </class>
+		</classes>
+  </test>
+  
+  <test name="Pine360 Test Cases IE" >
+	<parameter name="browser" value="ie" />
+		<classes>
+		   <class name="Pine360TestSuite.Pine360TestsSuite">
+				<methods>
+					<include name="CreateMembership" />
+					<include name="CreateCardTier" />
+					<include name="CreateBinRangeProduct" />
+					<include name="CreateBinRangeCorporate" />
+					<include name="CreateBinRange" />
+					<include name="CreateDenomination" />
+					<include name="CreateCardScheme" />
+					<include name="CreateStockOrder" />
+					<include name="CreateRole" />
+					<include name="CreateUser" />
+					<include name="UnblockandResetPassword" />
+					<include name="CreateCustomer" />
+					<include name="EditUser" />
+					<include name="EditCustomer" />
+				</methods>
+		   </class>
+		</classes>
+  </test>
+</suite>

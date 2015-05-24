@@ -1,0 +1,11 @@
+<?xml version="1.0" ?> 
+<TestData>
+	<Test>
+		<URL>http://192.168.100.80:8080/</URL>
+		<UserName>system</UserName>
+		<Password>system</Password>
+		<LoginPage>starbucks</LoginPage>
+		<Category>Merchant</Category>
+		<Merchant>Religare</Merchant>
+	</Test>
+</TestData>

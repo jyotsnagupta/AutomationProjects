@@ -1,0 +1,40 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!--Change The Parallel attribute for parallel Execution   -->
+<suite name="Suite" parallel="tests">
+	<test name="Login1">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+
+	<test name="Login2">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+
+    <test name="Login3">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+	
+	<test name="Login4">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+	
+	<test name="Login5">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+	
+</suite>

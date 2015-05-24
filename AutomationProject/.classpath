@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="Pine360"/>
+	<classpathentry kind="src" path="Billing"/>
+	<classpathentry kind="src" path="TRM"/>
+	<classpathentry kind="src" path="FrameworkLibrary"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/AutomationTestExecution/Automation/Jar/dom4j-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/AutomationTestExecution/Automation/Jar/junit-4.7.jar"/>
+	<classpathentry kind="lib" path="D:/AutomationTestExecution/Automation/Jar/jxl-2.6.jar"/>
+	<classpathentry kind="lib" path="D:/AutomationTestExecution/Automation/Jar/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="D:/AutomationTestExecution/Automation/Jar/mail.jar"/>
+	<classpathentry kind="lib" path="D:/AutomationTestExecution/Automation/Jar/ojdbc6.jar"/>
+	<classpathentry kind="lib" path="D:/AutomationTestExecution/Automation/Jar/poi-3.11-20141221.jar"/>
+	<classpathentry kind="lib" path="D:/AutomationTestExecution/Automation/Jar/poi-ooxml-3.11-20141221.jar"/>
+	<classpathentry kind="lib" path="D:/AutomationTestExecution/Automation/Jar/poi-ooxml-schemas-3.11-20141221.jar"/>
+	<classpathentry kind="lib" path="D:/AutomationTestExecution/Automation/Jar/selenium-java-2.44.0.jar"/>
+	<classpathentry kind="lib" path="D:/AutomationTestExecution/Automation/Jar/selenium-java-2.44.0-srcs.jar"/>
+	<classpathentry kind="lib" path="D:/AutomationTestExecution/Automation/Jar/selenium-server.jar"/>
+	<classpathentry kind="lib" path="D:/AutomationTestExecution/Automation/Jar/selenium-server-standalone-2.44.0.jar"/>
+	<classpathentry kind="lib" path="D:/AutomationTestExecution/Automation/Jar/sqljdbc4-4.0.jar"/>
+	<classpathentry kind="lib" path="D:/AutomationTestExecution/Automation/Jar/testng.jar"/>
+	<classpathentry kind="lib" path="D:/AutomationTestExecution/Automation/Jar/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

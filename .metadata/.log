@@ -1,0 +1,271 @@
+!SESSION 2015-05-21 23:08:45.928 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.dsl.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.dsl.product
+
+!ENTRY org.eclipse.ant.ui 4 0 2015-05-21 23:08:47.126
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.ant.ui [39]
+  Unresolved requirement: Require-Bundle: org.eclipse.jdt.junit; bundle-version="[3.5.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jdt.junit; bundle-version="3.7.300.v20140418-0836"; singleton:="true"
+       org.eclipse.jdt.junit [225]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.junit.runtime; bundle-version="[3.4.100,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jdt.junit.runtime; bundle-version="3.4.500.v20140527-1138"; singleton:="true"
+              org.eclipse.jdt.junit.runtime [227]
+                Unresolved requirement: Require-Bundle: org.junit; bundle-version="3.8.2"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jdt.junit 4 0 2015-05-21 23:08:47.177
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.junit [225]
+  Unresolved requirement: Require-Bundle: org.eclipse.jdt.junit.runtime; bundle-version="[3.4.100,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jdt.junit.runtime; bundle-version="3.4.500.v20140527-1138"; singleton:="true"
+       org.eclipse.jdt.junit.runtime [227]
+         Unresolved requirement: Require-Bundle: org.junit; bundle-version="3.8.2"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jdt.junit.core 4 0 2015-05-21 23:08:47.210
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.junit.core [226]
+  Unresolved requirement: Require-Bundle: org.eclipse.jdt.junit.runtime; bundle-version="[3.4.100,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jdt.junit.runtime; bundle-version="3.4.500.v20140527-1138"; singleton:="true"
+       org.eclipse.jdt.junit.runtime [227]
+         Unresolved requirement: Require-Bundle: org.junit; bundle-version="3.8.2"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.pde.api.tools.ui 4 0 2015-05-21 23:08:47.233
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.pde.api.tools.ui [271]
+  Unresolved requirement: Require-Bundle: org.eclipse.pde.ui; bundle-version="[3.4.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.pde.ui; bundle-version="3.8.101.v20141001-1400"; singleton:="true"
+       org.eclipse.pde.ui [494]
+         Unresolved requirement: Require-Bundle: org.eclipse.ant.ui; bundle-version="[3.1.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.ant.ui; bundle-version="3.5.500.v20140521-1557"; singleton:="true"
+              org.eclipse.ant.ui [39]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.junit; bundle-version="[3.5.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jdt.junit; bundle-version="3.7.300.v20140418-0836"; singleton:="true"
+                     org.eclipse.jdt.junit [225]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jdt.junit.runtime; bundle-version="[3.4.100,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.jdt.junit.runtime; bundle-version="3.4.500.v20140527-1138"; singleton:="true"
+                            org.eclipse.jdt.junit.runtime [227]
+                              Unresolved requirement: Require-Bundle: org.junit; bundle-version="3.8.2"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.pde.ds.ui 4 0 2015-05-21 23:08:47.239
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.pde.ds.ui [276]
+  Unresolved requirement: Require-Bundle: org.eclipse.pde.ui; bundle-version="[3.3.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.pde.ui; bundle-version="3.8.101.v20141001-1400"; singleton:="true"
+       org.eclipse.pde.ui [494]
+         Unresolved requirement: Require-Bundle: org.eclipse.ant.ui; bundle-version="[3.1.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.ant.ui; bundle-version="3.5.500.v20140521-1557"; singleton:="true"
+              org.eclipse.ant.ui [39]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.junit; bundle-version="[3.5.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jdt.junit; bundle-version="3.7.300.v20140418-0836"; singleton:="true"
+                     org.eclipse.jdt.junit [225]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jdt.junit.runtime; bundle-version="[3.4.100,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.jdt.junit.runtime; bundle-version="3.4.500.v20140527-1138"; singleton:="true"
+                            org.eclipse.jdt.junit.runtime [227]
+                              Unresolved requirement: Require-Bundle: org.junit; bundle-version="3.8.2"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.pde.junit.runtime 4 0 2015-05-21 23:08:47.249
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.pde.junit.runtime [277]
+  Unresolved requirement: Require-Bundle: org.eclipse.jdt.junit.runtime; bundle-version="[3.2.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jdt.junit.runtime; bundle-version="3.4.500.v20140527-1138"; singleton:="true"
+       org.eclipse.jdt.junit.runtime [227]
+         Unresolved requirement: Require-Bundle: org.junit; bundle-version="3.8.2"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.pde.launching 4 0 2015-05-21 23:08:47.261
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.pde.launching [278]
+  Unresolved requirement: Require-Bundle: org.eclipse.jdt.junit.core; bundle-version="[3.6.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jdt.junit.core; bundle-version="3.7.300.v20140409-1618"; singleton:="true"
+       org.eclipse.jdt.junit.core [226]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.junit.runtime; bundle-version="[3.4.100,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jdt.junit.runtime; bundle-version="3.4.500.v20140527-1138"; singleton:="true"
+              org.eclipse.jdt.junit.runtime [227]
+                Unresolved requirement: Require-Bundle: org.junit; bundle-version="3.8.2"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.pde.ua.ui 4 0 2015-05-21 23:08:47.268
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.pde.ua.ui [281]
+  Unresolved requirement: Require-Bundle: org.eclipse.pde.ui; bundle-version="[3.4.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.pde.ui; bundle-version="3.8.101.v20141001-1400"; singleton:="true"
+       org.eclipse.pde.ui [494]
+         Unresolved requirement: Require-Bundle: org.eclipse.ant.ui; bundle-version="[3.1.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.ant.ui; bundle-version="3.5.500.v20140521-1557"; singleton:="true"
+              org.eclipse.ant.ui [39]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.junit; bundle-version="[3.5.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jdt.junit; bundle-version="3.7.300.v20140418-0836"; singleton:="true"
+                     org.eclipse.jdt.junit [225]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jdt.junit.runtime; bundle-version="[3.4.100,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.jdt.junit.runtime; bundle-version="3.4.500.v20140527-1138"; singleton:="true"
+                            org.eclipse.jdt.junit.runtime [227]
+                              Unresolved requirement: Require-Bundle: org.junit; bundle-version="3.8.2"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.pde.ui.templates 4 0 2015-05-21 23:08:47.274
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.pde.ui.templates [283]
+  Unresolved requirement: Require-Bundle: org.eclipse.pde.ui; bundle-version="[3.3.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.pde.ui; bundle-version="3.8.101.v20141001-1400"; singleton:="true"
+       org.eclipse.pde.ui [494]
+         Unresolved requirement: Require-Bundle: org.eclipse.ant.ui; bundle-version="[3.1.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.ant.ui; bundle-version="3.5.500.v20140521-1557"; singleton:="true"
+              org.eclipse.ant.ui [39]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.junit; bundle-version="[3.5.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jdt.junit; bundle-version="3.7.300.v20140418-0836"; singleton:="true"
+                     org.eclipse.jdt.junit [225]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jdt.junit.runtime; bundle-version="[3.4.100,4.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.jdt.junit.runtime; bundle-version="3.4.500.v20140527-1138"; singleton:="true"
+                            org.eclipse.jdt.junit.runtime [227]
+                              Unresolved requirement: Require-Bundle: org.junit; bundle-version="3.8.2"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.pde.ui 4 0 2015-05-21 23:08:47.577
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.pde.ui [494]
+  Unresolved requirement: Require-Bundle: org.eclipse.ant.ui; bundle-version="[3.1.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.ant.ui; bundle-version="3.5.500.v20140521-1557"; singleton:="true"
+       org.eclipse.ant.ui [39]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.junit; bundle-version="[3.5.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jdt.junit; bundle-version="3.7.300.v20140418-0836"; singleton:="true"
+              org.eclipse.jdt.junit [225]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.junit.runtime; bundle-version="[3.4.100,4.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jdt.junit.runtime; bundle-version="3.4.500.v20140527-1138"; singleton:="true"
+                     org.eclipse.jdt.junit.runtime [227]
+                       Unresolved requirement: Require-Bundle: org.junit; bundle-version="3.8.2"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.testng.eclipse 4 0 2015-05-21 23:08:47.667
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.testng.eclipse [509]
+  Unresolved requirement: Require-Bundle: org.eclipse.jdt.junit
+    -> Bundle-SymbolicName: org.eclipse.jdt.junit; bundle-version="3.7.300.v20140418-0836"; singleton:="true"
+       org.eclipse.jdt.junit [225]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.junit.runtime; bundle-version="[3.4.100,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jdt.junit.runtime; bundle-version="3.4.500.v20140527-1138"; singleton:="true"
+              org.eclipse.jdt.junit.runtime [227]
+                Unresolved requirement: Require-Bundle: org.junit; bundle-version="3.8.2"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-05-21 23:10:01.502
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-05-21 23:10:01.524
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Roshan'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

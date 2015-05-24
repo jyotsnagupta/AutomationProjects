@@ -1,0 +1,270 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!--Change The Parallel attribute for parallel Execution   -->
+<suite name="Suite" parallel="tests">
+	<test name="Login1">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+
+	<test name="Login2">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+
+    <test name="Login3">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+	
+	<test name="Login4">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+	
+	<test name="Login5">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+	
+	<test name="Login6">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+	
+	<test name="Login7">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+	
+	<test name="Login8">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+	
+	<test name="Login9">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+	
+	<test name="Login10">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+	
+	<test name="Login11">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+	
+	<test name="Login12">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+	
+	<test name="Login13">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+	
+	<test name="Login14">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+	
+	<test name="Login15">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+	
+	<test name="Login16">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+	
+	<test name="Login17">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+	
+	<test name="Login18">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+	
+	<test name="Login19">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+	
+	<test name="Login20">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+	
+	<test name="Login21">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+	
+	<test name="Login22">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+	
+	<test name="Login23">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+	
+	<test name="Login24">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+	
+	<test name="Login25">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+	
+	<test name="Login26">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+	
+	<test name="Login27">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+	
+	<test name="Login28">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+	
+	<test name="Login29">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+	
+	<test name="Login30">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+	
+	<test name="Login31">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+	
+	<test name="Login32">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+	
+	<test name="Login33">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+	
+	<test name="Login34">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+	
+	<test name="Login35">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+	
+	<test name="Login36">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+	
+	<test name="Login37">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+	
+	<test name="Login38">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Pine360TestSuite.Pine360UsersLoginLoadTest"/>
+		</classes>
+    </test>
+</suite>

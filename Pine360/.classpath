@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/SVN/Project_Docs/Testing/Automation/Jar/junit-4.7.jar"/>
+	<classpathentry kind="lib" path="D:/SVN/Project_Docs/Testing/Automation/Jar/poi-3.7-beta1.jar"/>
+	<classpathentry kind="lib" path="D:/SVN/Project_Docs/Testing/Automation/Jar/jxl-2.6.jar"/>
+	<classpathentry kind="lib" path="D:/SVN/Project_Docs/Testing/Automation/Jar/selenium-java-2.41.0.jar" sourcepath="D:/SVN/Project_Docs/Testing/Automation/Jar/selenium-java-2.41.0.jar"/>
+	<classpathentry kind="lib" path="D:/SVN/Project_Docs/Testing/Automation/Jar/selenium-java-2.41.0-srcs.jar"/>
+	<classpathentry kind="lib" path="D:/SVN/Project_Docs/Testing/Automation/Jar/selenium-server-standalone-2.41.0.jar" sourcepath="D:/SVN/Project_Docs/Testing/Automation/Jar/selenium-server-standalone-2.41.0.jar"/>
+	<classpathentry kind="lib" path="D:/SVN/Project_Docs/Testing/Automation/Jar/testng-6.8.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

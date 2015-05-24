@@ -1,0 +1,1 @@
+INDEX VERSION 1.127+D:\Automation\AutomationTestExecution\Automation\.metadata\.plugins\org.eclipse.jdt.core
